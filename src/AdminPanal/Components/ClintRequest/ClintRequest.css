@@ -1,0 +1,148 @@
+.users-container{
+    background:#f1f0f0;
+}
+.search-bar{
+    display: flex;
+}
+.search-title{
+    padding-left: 5%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.search-input-text{
+    width: 50%;
+    height: 35px;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+}
+.add-user-new{
+    text-align: right;
+    padding-right: 15%;
+    margin-top: 3%;
+}
+.add-user-btn{
+    padding: 2% 5% 2% 5%;
+    border: none;
+    background: var(--gradient);
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: whitesmoke;
+}
+.add-user-btn:hover{
+    background:var(--leftgradient);
+}
+.clint-list-title{
+    padding-left: 5%;
+    color: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Table Styling of css  user table*/
+/* Section One*/
+
+.clint-list-table{
+    padding: 3%;
+}
+.Clintreqest-table th { 
+        background: #009879;
+        color: var(--white);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:medium;
+}
+.Clintreqest-table{
+        border-collapse: collapse;
+        border: 1px solid #cdcdcd;
+        font: normal 12px arial; 
+        width: 100%;
+        
+}
+.Clintreqest-table th { border: 1px solid #cdcdcd; padding: 3px; padding-top: 1%; padding-bottom: 1%;}
+.Clintreqest-table td { border: 1px solid #cdcdcd; padding: 3px;}
+
+.Clintreqest-table tbody tr:nth-of-type(even) {
+        background-color: #99b4af;
+    }
+/* Section two*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+        /* Section three*/
+        .Clintreqest-table thead tbody th td tr { 
+                        display: block; 
+                }
+                /* Section four*/
+                .Clintreqest-table thead tr { 
+                        position: absolute;
+                        top: -9999px;
+                        left: -9999px;
+                }
+                
+                .Clintreqest-table tr { border-bottom: 1px solid #ccc; }
+/* Section five*/
+                .Clintreqest-table td { 
+                     border: none;
+                     border-bottom: 1px solid #eee; 
+                     position: relative;
+                     padding-left: 50%; 
+                }
+                 .Clintreqest-table td:before { 
+                        position: absolute;
+                        top: 3px;
+                        left: 6px;
+                        width: 45%; 
+                        padding-right: 10px; 
+                        white-space: nowrap;
+                        font-weight: bold;
+                }
+                /* Section six*/
+
+                .Clintreqest-table td:nth-of-type(1):before { content: "ID"; }
+                .Clintreqest-table td:nth-of-type(2):before { content: "First Name"; }
+                .Clintreqest-table td:nth-of-type(3):before { content: "Last Name"; }
+                .Clintreqest-table td:nth-of-type(4):before { content: "EmailAddress"; }
+                .Clintreqest-table td:nth-of-type(5):before { content: "Comany Name"; }
+                .Clintreqest-table td:nth-of-type(6):before { content: "Hear About Brain"; }
+                .Clintreqest-table td:nth-of-type(7):before { content: "Traning Goals"; }
+                .Clintreqest-table td:nth-of-type(8):before { content: "Edit"; }
+                .Clintreqest-table td:nth-of-type(9):before { content: "Delete"; }
+                
+}
+.edit-btn{
+background: none;
+margin-left: 20%;
+border: none;
+}
+.edit-icons-size{
+        font-size:x-large;
+        font-weight: bold;
+        color: green;
+}
+.delete-btn{
+        background: none;
+        margin-left: 20%;
+        border: none;
+        }
+.delete-icons-size{
+                font-size:x-large;
+                font-weight: bold;
+                color: red;
+        }
+/* Section seven*/
+        /* @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px) {
+                body { 
+                        padding: 0; 
+                        margin: 0; 
+                        width: 400px; }
+                } */
+/* Section eight*/
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                body { 
+                        width: 495px; 
+                }
+        }

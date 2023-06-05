@@ -1,0 +1,76 @@
+.marketing-container{
+    background: var(--dark);
+    padding: 2%;
+}
+.digitalmarketing-card{
+    padding: 2% 5% 10% 5%;
+    border-radius: 20px;
+}
+.digitalmarketing-img{
+    width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-left: 20%;
+}
+.digitalmarketing-title{
+    padding-bottom: 8%;
+    text-align: center;
+    background: var(--leftgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.learning-video-weeks {
+    display: flex;
+  }
+.learning-videos {
+    padding: 10% 1% 10% 1% ;
+    margin-left: 10%;
+  }
+  .learning-durtion-weeks {
+    font-size: 25px;
+    text-align: center;
+    background: var(--leftgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  .learning-duration {
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    color: var(--smallText);
+  }
+  
+  .learning-course-videos {
+    font-size: 25px;
+    text-align: center;
+    background: var(--leftgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  .learning-video {
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    color: var(--smallText);
+  }
+.digitalmarketing-watch-videos{
+    padding: 3% 10% 3% 10%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 23%;
+    border: none;
+    background: none;
+    background: var(--gradient);
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--white);
+    text-decoration: none;
+}
+.digitalmarketing-watch-videos:hover {
+    background: var(--leftgradient);
+  }

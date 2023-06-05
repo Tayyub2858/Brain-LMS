@@ -1,0 +1,124 @@
+.signup-container {
+  background: url(../../Assets//Front-Page//tagline.jpg);
+  background-size: contain;
+
+  padding: 5% 0% 5% 10%;
+}
+.signup-input-container {
+  padding: 2% 0% 5% 0%;
+  background-color: var(--endFooter);
+}
+.signup-title {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  font-size: large;
+  font-weight: 700;
+}
+.signup-heading {
+  color: var(--backgroundColor);
+  padding: 1% 70% 0% 0%;
+  width: fit-content;
+}
+.create-account {
+  text-align: center;
+  color: var(--backgroundColor);
+}
+.create-account-txt {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  font-weight: 900;
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
+}
+.signup-input {
+  width: 90%;
+  padding: 2%;
+  border-radius: 5px;
+  margin-top: 2%;
+  position: relative;
+}
+.signup-input-email {
+  width: 190%;
+  padding: 2%;
+  border-radius: 5px;
+  margin-top: 2%;
+  position: relative;
+}
+.check-box{
+  margin-top:3%;
+  margin-bottom: 3%;
+}
+.checkbox{
+  margin: 0.5%;
+}
+.input-txt {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin-top: 1%;
+}
+.checkbox-container{
+  margin-top: 2%;
+  /* padding: 2% 10% 2% 10%; */
+}
+.input-txt-checkbox {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin-top: 1%;
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  font-weight:800;
+}
+.signup-txt {
+  color: var(--smallText);
+  font-size: small;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.signup-btn {
+  font-weight: 700;
+  font-size: medium;
+  margin: auto;
+  display: block;
+  padding: 1% 5% 1% 5%;
+  background: var(--gradient);
+  border: none;
+  border-radius: 5px;
+}
+.signup-btn:hover {
+  cursor: pointer;
+}
+.password-toggle {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  margin-left: -30px;
+  margin-top: 15px;
+}
+@media only screen and (max-device-width: 768px){
+    .password-toggle{
+        margin-top: 2%;
+    }
+    .signup-container{
+        padding: 2%;
+    }
+    .signup-heading{
+        padding: 1%;
+        font-size: medium;
+        text-align: center;
+    }
+    .signup-title{
+        font-size: small;
+        display: block;
+        margin: auto;
+    }
+}

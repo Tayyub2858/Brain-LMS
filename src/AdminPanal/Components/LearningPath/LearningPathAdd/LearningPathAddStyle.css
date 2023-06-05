@@ -1,0 +1,48 @@
+.addnewlearningpath-container{
+    width: 100%;
+    height: auto;
+
+}
+.addnewlearningpath-box{
+    width: 25%;
+    height: fit-content;
+   background: var(--gradient);
+    margin: auto;
+    margin-top: 3%;
+    padding: 2% 2% 2% 5%;
+    border-radius: 10px;
+}
+.addnewlearningpath-title-name{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.addnewlearningpath-text-input{
+    width:  80%;
+    height: 25px;
+    border: none;
+}
+.btn-addnewlearningpath-box{
+    padding: 10% 0% 0% 0%;
+}
+.addnewlearningpath-add-new-btn{
+    padding:2% 30% 2% 30%;
+    cursor: pointer;
+    background: none;
+    background: var(--gradient);
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.addnewlearningpath-add-new-btn:hover{
+    background: var(--leftgradient);
+}
+@media only screen and (max-device-width: 768px){
+    .addnewlearningpath-box{
+        width: 80%;
+        height: fit-content;
+    }
+}

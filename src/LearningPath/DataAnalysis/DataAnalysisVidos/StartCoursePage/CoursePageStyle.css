@@ -1,0 +1,58 @@
+/* :root {
+    --blue: #66b9f0;
+    --yellow: #faca28;
+    --gradient: linear-gradient(to right, #66b9f0 0%, #faca28 100%);
+    --leftgradient: linear-gradient(to right, #faca28 0%, #66b9f0 100%);
+    --smallText: #a8a8a8;
+    --mediumText: #dfdfdf;
+    --buttonColor: #3d3d3d;
+    --backgroundColor: #f9f9f9;
+    --white: #ffffff;
+    --dark: #252525;
+    --grey: #4a4a4a;
+    --endFooter: #2b2b2b;
+  } */
+.coures-content-container{
+    width: fit-content;
+    height: fit-content;
+}
+.Courese-instructor{
+    padding: 3% 0% 0% 15%;
+}
+.inctructor-title{
+    font-size: xx-large;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inctructor-img{
+    width:  200px;
+    height: 200px;
+}
+.course-details{
+   padding: 0% 10% 0% 10%;
+   justify-content: center;
+}
+.courese-details-title{
+    text-align: center;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.course-detalis-text{
+    text-align: justify;
+    color: var(--dark);
+}
+.watch-videos-btn{
+    float: right;
+    background: none;
+    background: var(--gradient);
+    border: none;
+    padding:2% 5% 2% 5%;
+    border-radius: 100px;
+    font-weight: 700;
+}
+.watch-videos-btn:hover{
+    cursor: pointer;
+    background: var(--leftgradient);
+}

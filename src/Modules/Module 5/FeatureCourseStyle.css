@@ -1,0 +1,182 @@
+.featurecourse-container {
+    width: 100%;
+    height: fit fit-content;
+}
+
+.featurecourse-title-box {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.featurecourse-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.featurecourse-para {
+    font-size: small;
+    padding-top: 1%;
+    color: rgb(141, 138, 138);
+}
+
+.featurcourse-slider-containter {
+    width: 100%;
+    height: fit-content;
+    padding-top: 0%;
+    padding-bottom: 5%;
+
+}
+
+/* .featurecourse-myslider {
+
+    background: url(../../Assets/Front-Page/Excel\ from\ Beginner\ to\ Advanced.jpg);
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+} */
+.featurecourse-box1{
+    background: url(../../Assets/Front-Page/Excel\ from\ Beginner\ to\ Advanced.jpg);
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.featurecourse-box2{
+    background: url(../../Assets/Front-Page/iga-excel-class-2.jpg);
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.featurecourse-box3{
+    background: url(../../Assets/Front-Page/promo-small.jpg);
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.featurecours-learningpage-box {
+    width: 35%;
+    height: fit-content;
+    background-color: white;
+    margin: 2% 0% 3% 3%;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+
+.learning-page-title {
+    padding: 3% 3% 3% 5%;
+}
+.instructor-box{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.instructor-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.learningpage-para {
+    padding: 5% 5% 5% 5%;
+    justify-content: center;
+    font-size: medium;
+    color: rgb(141, 138, 138);
+    font-family: "rtl-font-family";
+}
+
+.stars-rating {
+    display: flex;
+    padding-left: 5%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
+.instructor-name{
+    margin-top: 4%;
+    margin-left: 3%;
+    font-family: "rtl-font-family";
+    color: rgb(141, 138, 138);
+}
+.rating-stars-color {
+    color: #ffe234;
+    font-size: 23px;
+}
+
+.rating-stars-noncolor {
+    font-size: 23px;
+    color: none;
+}
+
+.rating-btn-nbr {
+    padding: 0% 3% 0% 3%;
+    border: none;
+    background: none;
+    background: #162a47;
+    color: white;
+    border-radius: 10px;
+}
+
+.time-date-box {
+    display: flex;
+}
+
+.time-box {
+    border-right: 1px solid rgb(141, 138, 138);
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-right: 2%;
+    width: 30%;
+}
+
+.learing-clock-icons {
+    font-size: 20px;
+
+}
+
+.learning-hourse-time {
+    font-family: "rtl-font-family";
+    font-size: 17px;
+    color: rgb(141, 138, 138);
+    margin-left: 5%;
+}
+
+.date-box {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 35%;
+}
+
+.learning-calender-icon {
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.calender-date {
+    font-family: "rtl-font-family";
+    font-size: 15px;
+    color: rgb(141, 138, 138);
+    margin-left: 5%;
+}
+
+.learning-free-btn {
+    margin-top: 3%;
+    padding: 2% 5% 2% 5%;
+    border: none;
+    background: none;
+    background: #162a47;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .featurecours-learningpage-box{
+   width: fit-content; 
+   border-radius: 20px;
+  }
+}

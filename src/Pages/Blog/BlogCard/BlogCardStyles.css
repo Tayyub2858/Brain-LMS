@@ -1,0 +1,49 @@
+.card-container {
+    padding: 5% 0% 5% 5%;
+    background: var(--white);
+}
+
+.card-box {
+    width: 80%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+
+}
+
+.card-img {
+    width: 200px;
+    height: 30vh;
+
+}
+
+.card-box-text {
+    padding: 3% 5% 5% 7%;
+}
+
+.card-blog-title {
+    font-weight: 500;
+    color: var(--smallText);
+    padding-bottom: 5%;
+}
+
+.card-blog-heading {
+    font-weight: 900;
+    color: var(--dark);
+    padding-bottom: 7%;
+}
+
+.card-author {
+    font-weight: 500;
+    color: var(--smallText);
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    .card-box {
+        width: 57%;
+        height: fit-content;
+    }
+
+
+}

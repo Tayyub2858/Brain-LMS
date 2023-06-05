@@ -1,0 +1,38 @@
+.dataAnalysis-container{
+    background: var(--dark);
+    padding: 2%;
+}
+.DataAnalysis-card{
+    padding: 2% 5% 10% 5%;
+    border-radius: 20px;
+}
+.datanalysis-img{
+    width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-left: 20%;
+}
+.dataanalysis-title{
+    padding-bottom: 8%;
+    text-align: center;
+    background: var(--leftgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dataanalysis-watch-videos{
+    padding: 3% 10% 3% 10%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 23%;
+    border: none;
+    background: none;
+    background: var(--gradient);
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--white);
+    text-decoration: none;
+}
+.dataanalysis-watch-videos:hover {
+    background: var(--leftgradient);
+  }

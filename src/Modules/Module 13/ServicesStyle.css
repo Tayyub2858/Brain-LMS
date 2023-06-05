@@ -1,0 +1,81 @@
+.service-container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ourservices-title {
+    color: var(--textColor);
+    font-family: 'rtl-font-family';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.overservices-text {
+    font-weight: 200;
+    color: silver;
+    padding-top: 1%;
+    font-family: 'rtl-font-family';
+}
+
+.services-cards {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.card-box-frame {
+    width: 100%;
+    height: fit-content;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card-box-frame:hover{
+    background: var(--textColor);
+    color:white !important;
+}
+
+.services-icons {
+    width: 100px;
+    height: 100px;
+    padding-left: 5%;
+}
+
+.servicescard-title {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.servicecard-text {
+    padding: 5% 10% 5% 5%;
+    font-family: 'rtl-font-family';
+}
+
+.servicecard-btn {
+    margin-top: 5%;
+    padding: 5% 10% 5% 5%;
+    margin-left: 5%;
+    font-size: large;
+    cursor: pointer;
+    background: none;
+    border: none;
+    background: var(--logocolor);
+    border-radius: 10px;
+    color: white;
+
+}
+.servicearrow-btn {
+    width: 100%;
+    height: 2vh;
+    margin: auto;
+    margin-top: 5%;
+}
+.servicesicons {
+    line-height: 10px;
+    font-size: 15px;
+}

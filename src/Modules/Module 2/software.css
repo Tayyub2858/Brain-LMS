@@ -1,0 +1,35 @@
+.software-container {
+  padding: 2% 5% 2% 5%;
+  height: fit-content;
+  background-color: var(--backgroundColor);
+  box-shadow: 0px 13px 8px -15px #111;
+  width: 80%;
+  margin: auto;
+}
+.software-img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+.software-slide-container {
+  display: flex;
+  margin: auto;
+}
+.software-txt {
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+}
+@media only screen and (max-device-width: 768px) {
+  .software-container {
+    margin-top: 0%;
+  }
+  .software-img {
+    margin-top: 10%;
+    width: 25%;
+  }
+  .software-txt{
+    font-size: x-small;
+  }
+}

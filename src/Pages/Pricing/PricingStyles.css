@@ -1,0 +1,118 @@
+/* :root {
+  --blue: #3f3f95;
+  --yellow: #faca28;
+  --gradient: linear-gradient(to right, #3f3f95 0%, #faca28 100%);
+  --leftgradient: linear-gradient(to right, #faca28 0%, #25257c 100%);
+  --borderGradient: linear-gradient(to right, #faca28, #25257c);
+  --smallText: #a8a8a8;
+  --mediumText: #dfdfdf;
+  --buttonColor: #3d3d3d;
+  --backgroundColor: #f9f9f9;
+  --white: #ffffff;
+  --dark: #252525;
+  --grey: #4a4a4a;
+  --endFooter: #2b2b2b;
+} */
+.pricing-container {
+  padding: 5% 10% 5% 10%;
+  background: url(../../Assets/Front-Page/tagline.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pricing-card {
+  /* display: flex; */
+  margin: auto;
+  padding: 2% 2% 2% 2%;
+  height: 70vh;
+  width: 50vh;
+  background-color: var(--dark);
+  opacity: 0.75;
+  box-shadow: 15px 15px 10px -15px var(--yellow);
+
+}
+.pricing-card:hover {
+  border: 3px solid transparent;
+  border-image: var(--borderGradient);
+  border-image-slice: 1;
+  cursor: text;
+}
+.pricing-heading {
+  margin: auto;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  font-size: 40px;
+  text-align: center;
+}
+.pricing-txt {
+  color: var(--yellow);
+  text-align: center;
+  margin-bottom: 2%;
+  word-spacing: 5px;
+}
+.price-data-card{
+  padding: 2%;
+  margin: 2%;
+}
+.price-data-card-heading{
+  color: var(--backgroundColor);
+  text-align: center;
+}
+.pricing-data-card-txt{
+  color: var(--mediumText);
+  text-align: center;
+  font-size: small;
+  padding: 1% 25% 1% 25%;
+}
+.pricing-data-card-grad{
+  display: block;
+  margin: auto;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  font-size: x-large;
+  font-weight: 900;
+}
+.price{
+  text-align: center;
+  color: var(--backgroundColor);
+}
+.price-txt{
+  font-size: x-large;
+  font-weight: 900;
+}
+.type{
+  margin-top: 2%;
+}
+.title-type{
+  text-align: center;
+  color: var(--backgroundColor);
+}
+.title-type-txt{
+ font-weight: 700;
+}
+.price-btn{
+  display: block;
+  margin: auto;
+}
+.features{
+  margin-top: 10%;
+}
+.features-heading{
+  text-align: center;
+  color: var(--backgroundColor);
+}
+.features-txt{
+  color: var(--backgroundColor);
+  text-align: center;
+  font-size: small;
+  margin-top: 5%;
+}
+@media only screen and (max-device-width: 768px) {
+  .pricing-card{
+    width: 100%;
+  }
+}
+

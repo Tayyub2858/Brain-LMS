@@ -1,0 +1,144 @@
+.footer-container {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  background-color: var(--dark);
+}
+.footer-logo {
+  margin-left: 20%;
+  width: 60%;
+}
+.footer-logo:hover {
+  cursor: pointer;
+}
+.footer-heading{
+  color: var(--backgroundColor);
+}
+.footer-txt {
+  margin-top: 5%;
+  color: var(--smallText);
+  font-size: small;
+  
+}
+.ph-num{
+  margin-top: 8%;
+  display: block;
+  font-weight: bold;
+}
+.footer-links{
+  margin-left: 25%;
+}
+.footer-link-txt{
+  color: var(--smallText);
+  font-size: small;
+  margin-top: 15%;
+  width: fit-content;
+}
+.footer-link-txt:hover{
+  cursor: pointer;
+  color: var(--yellow);
+}
+.newsletter-container{
+  margin-left: 10%;
+}
+.sub{
+  background-color: var(--endFooter);
+  border: none;
+  padding: 2% 5% 2% 5%;
+  border-radius: 5px;
+  margin-top: 2%;
+  color: var(--backgroundColor);
+width: 90%;
+}
+.sub-btn{
+  background: var(--gradient);
+  border: none;
+  padding: 2% 5% 2% 5%;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 2%;
+}
+.sub-btn:hover{
+  cursor: pointer;
+}
+.barcode-img{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.barcode{
+  margin-left: 15%;
+}
+
+.social-media-img{
+  margin-top: 5%;
+  width: 15%;
+  display: block;
+}
+.social-media-img:hover{
+  cursor: pointer;
+}
+.end-footer{
+  text-align: center;
+  background-color: var(--endFooter);
+  color: var(--smallText);
+  padding: 1% 15% 1% 15%;
+}
+.end-footer-txt{
+  margin-left: 2%;
+  font-size: small;
+}
+.footer-link{
+  text-decoration: none;
+}
+@media only screen and (max-device-width: 768px) {
+  .footer-logo{
+    width: 25%;
+    display: block;
+    margin: auto;
+  }
+  .footer-heading{
+    font-size: 12px;
+  }
+  .footer-link-txt{
+    font-size: 8px;
+    margin: 0;
+  }
+  .footer-txt{
+    font-size: 8px;
+    margin: 0;
+  }
+  .ph-num{
+    margin-top: 5%;
+  }
+  .footer-links{
+    margin: 0;
+    padding: 1%;
+    margin-top: 15%;
+  }
+  .newsletter-container{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .sub{
+    margin: 0;
+    width: 50%;
+  }
+  .sub-btn{
+    width: 50%;
+  }
+  .barcode-img{
+    width: 0%;
+  }
+  .socialmedia-links{
+    margin-left: 25%;
+  }
+  .social-media-img{
+    width: 10%;
+    display: inline;
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,68 @@
+.learning-container{
+  width: fit-content;
+  height: fit-content;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+.learning-heading-box{
+  padding: 0% 0% 5% 0%;
+}
+.learning-title{
+  font-family: "rtl-font-family";
+  /* color: var(--textColor); */
+}
+.learning-para-text{
+  font-family: 'rtl-font-family';
+}
+
+.every-learning-boxes{
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+}
+.every-learning-boxes:hover{
+  box-shadow: 0 2px 4px rgba(107, 108, 109, 0.1);
+  color: var(--logocolor);
+}
+.elearning-images-div{
+
+  padding: 15% 5% 15% 5%;
+}
+.learning-images{
+  width: 50px;
+  height: 50px;
+}
+.elearning-heading{
+  font-family: "rtl-font-family";
+  padding: 15% 5% 5% 0% ;
+}
+.viewmore-btn{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.viewmore-btn:hover{
+  color:var(--logocolor);
+}
+@media only screen and (max-device-width: 768px) {
+  .showcase-title{
+    font-size: small;
+  }
+  .showcase-heading{
+    font-size: medium;
+    padding: 2%;
+  }
+  .showcase-txt{
+    font-size: small;
+    padding: 2%;
+  }
+  .showcase-btn{
+    font-size: x-small;
+  }
+  .showcase-img{
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,125 @@
+
+.contact-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.add-new-contact{
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+.add-new-contact-btn{
+    padding: 2% 5% 2% 5%;
+    border: none;
+    background: var(--gradient);
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: whitesmoke;
+}
+/* Table Styling of css  user table*/
+/* Section One*/
+
+.contact-list-show{
+    padding: 3%;
+}
+.contact-table th { 
+        background: #009879;
+        color: var(--white);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:medium;
+}
+.contact-table{
+        border-collapse: collapse;
+        border: 1px solid #cdcdcd;
+        font: normal 12px arial; 
+        width: 100%;
+        
+}
+.contact-table th { border: 1px solid #cdcdcd; padding: 3px; padding-top: 1%; padding-bottom: 1%;}
+.contact-table td { border: 1px solid #cdcdcd; padding: 3px;}
+
+.contact-table tbody tr:nth-of-type(even) {
+        background-color: #99b4af;
+    }
+/* Section two*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+        /* Section three*/
+        .contact-table thead tbody th td tr { 
+                        display: block; 
+                }
+                /* Section four*/
+                .contact-table thead tr { 
+                        position: absolute;
+                        top: -9999px;
+                        left: -9999px;
+                }
+                
+                .contact-table tr { border-bottom: 1px solid #ccc; }
+/* Section five*/
+                .contact-table td { 
+                     border: none;
+                     border-bottom: 1px solid #eee; 
+                     position: relative;
+                     padding-left: 50%; 
+                }
+                 .contact-table td:before { 
+                        position: absolute;
+                        top: 3px;
+                        left: 6px;
+                        width: 45%; 
+                        padding-right: 10px; 
+                        white-space: nowrap;
+                        font-weight: bold;
+                }
+                /* Section six*/
+
+                .contact-table td:nth-of-type(1):before { content: "ID"; }
+                .contact-table td:nth-of-type(2):before { content: "Course Image"; }
+                .contact-table td:nth-of-type(3):before { content: "Course Title"   ; }
+                .contact-table td:nth-of-type(4):before { content: "Course Total Weeks"; }
+                .contact-table td:nth-of-type(4):before { content: "Course Total Videos"; }
+                .contact-table td:nth-of-type(5):before { content: "Edit"; }
+                .contact-table td:nth-of-type(6):before { content: "Delete"; }
+}
+.edit-btn{
+background: none;
+margin-left: 20%;
+border: none;
+cursor: pointer;
+}
+.edit-icons-size{
+        font-size:x-large;
+        font-weight: bold;
+        color: green;
+}
+.delete-btn{
+        background: none;
+        margin-left: 20%;
+        border: none;
+        cursor: pointer;
+        }
+.delete-icons-size{
+                font-size:x-large;
+                font-weight: bold;
+                color: red;
+        }
+/* Section seven*/
+        /* @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px) {
+                body { 
+                        padding: 0; 
+                        margin: 0; 
+                        width: 400px; }
+                } */
+/* Section eight*/
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                body { 
+                        width: 495px; 
+                }
+        }

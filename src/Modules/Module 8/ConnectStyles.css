@@ -1,0 +1,62 @@
+.connect-top-container{
+  padding: 2% 0% 2% 0%;
+}
+.connect-top-heading{
+    text-align: center;
+    font-size: 30px;
+    color: var(--dark);
+}
+
+.connect-top-txt{
+    color: var(--grey);
+    text-align: center;
+}
+
+.connect-title-top {
+  background: var(--gradient);
+  width: fit-content;
+  border-radius: 50px;
+  color: var(--dark);
+  padding: 0.7%;
+  font-weight: 600;
+  display: block;
+  margin: auto;
+}
+.profile-img-container{
+  padding: 1% 0% 1% 0%;
+}
+.instructors-img{
+  width: 100%;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 768px) {
+ .connect-top-container, .connect-txt-container{
+   padding:5%;
+  }
+  .connect-title{
+    font-size: small;
+  }
+  .connect-top-container{
+    padding: 2%;
+  }
+  .connect-top-heading{
+    font-size: medium;
+  }
+  .connect-heading{
+    font-size: medium;
+  }
+  .connect-txt{
+    font-size: small;
+  }
+
+.connect-top-txt{
+  font-size: small;
+}
+.connect-img{
+  width: 80%;
+}
+.instructors-img{
+  width: 100%;
+}
+}

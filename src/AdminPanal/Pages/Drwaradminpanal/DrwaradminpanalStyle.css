@@ -1,0 +1,67 @@
+
+  .drawaradmin-nav{
+    background: var(--endFooter);
+     padding: 1% 1% 1% 1%;
+     color: var(--white);
+ }
+
+ .admin-sidebar{
+     height: 100%;
+     width: 100%;
+     background-color: var(--dark);
+ }
+ .admin-sidebar-logo{
+    margin-top: 10%;
+     width: 200px;
+     height: 40px;
+ }
+ .component-title{
+     font-size: xx-large;
+    margin-left: 40%;
+     
+ }
+ .sidebar-row{
+     width:80%;
+     height: 50px;
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     color: var(--smallText);
+     justify-content: center;
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .sidebar-row:hover{
+     cursor: pointer;
+     background-color: var(--grey);
+     color: var(--white);
+     border-radius: 10px;
+ }
+ .sidebar-icons{
+     flex: 30%;
+     display: grid;
+     place-items: center;
+ }
+ .sidebar-icons:hover{
+     background: var(--gradient);
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .sidebar-title{
+     flex: 100%;
+     font-weight:300;
+ }
+ .bottom-txt{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+ 
+ @media only screen and (max-device-width: 768px){
+     .component-title{
+         font-size: medium;
+         text-align: center;
+         margin: 25%;
+     }
+ }

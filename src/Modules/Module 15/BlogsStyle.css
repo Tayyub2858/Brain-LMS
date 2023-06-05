@@ -1,0 +1,31 @@
+.blogs-container{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--smalltext);
+    padding-bottom: 5%;
+}
+.blog-title{
+    font-family: 'rtl-font-family';
+    color: var(--textcolor);
+}
+.view-blog{
+    width: 30%;
+    float: right;
+    /* margin-right: 5%; */
+}
+.blogall-btn{
+    padding:8% 20% 8% 20%;
+    border: none;
+    background: none;
+    border: 2px solid var(--logocolor);
+    border-radius: 20px;
+    font-weight: bold;
+    background: var(--logocolor);
+    color: var(--textcolor);
+    cursor: pointer;
+}
+.blogall-btn:hover{
+    background: var(--white);
+    color: var(--textcolor);
+    border: 2px solid var(--logocolor);
+}

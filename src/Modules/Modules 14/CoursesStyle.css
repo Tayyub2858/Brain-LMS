@@ -1,0 +1,158 @@
+.courses-container{
+    width: 100%;
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.course-title{
+    font-family: 'rtl-font-family';
+    color: var(--textcolor);
+}
+.view-courses{
+    width: 30%;
+    float: right;
+    /* margin-right: 5%; */
+}
+.viewall-btn{
+    padding:8% 20% 8% 20%;
+    border: none;
+    background: none;
+    border: 2px solid var(--logocolor);
+    border-radius: 20px;
+    font-weight: bold;
+    background: var(--logocolor);
+    color: var(--textcolor);
+    cursor: pointer;
+}
+.viewall-btn:hover{
+    background: var(--white);
+    color: var(--textcolor);
+    border: 2px solid var(--logocolor);
+}
+.Course-offered-btn{
+    /* border: none; */
+    /* background: none; */
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    padding:2% 5% 2% 5%;
+    border-radius: 10px 20px;
+    border: none;
+    background: var(--logocolor);
+    color: var(--textcolor);
+    font-weight: bold;
+}
+.courseoffer-slider-boxes{
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+.course-offer-cards{
+    /* background-color: red; */
+    padding-bottom: 3%;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.courseoffer-title{
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 5%;
+    font-family: 'rtl-font-family';
+}
+.courseoffer-para{
+   padding: 1% 5% 5% 3%;
+   text-decoration: underline;
+   font-family: 'rtl-font-family';
+}
+.course-offered-img{
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+}
+.courseoffer-stars-rating {
+    display: flex;
+    padding-left: 3%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
+.courseoffer-instructor-name{
+    margin-top: 4%;
+    margin-left: 3%;
+    font-family: "rtl-font-family";
+    color: rgb(141, 138, 138);
+}
+.courseoffer-rating-stars-color {
+    color: var(--logocolor);
+    font-size: 23px;
+}
+
+.courseoffer-rating-stars-noncolor {
+    font-size: 23px;
+    color: none;
+}
+
+.courseoffer-rating-btn-nbr {
+    padding: 0% 3% 0% 3%;
+    border: none;
+    background: none;
+    background: #162a47;
+    color:var(--white);
+    border-radius: 10px;
+
+}
+
+.courseoffer-time-date-box {
+    display: flex;
+}
+
+.courseoffer-time-box {
+    border-right: 1px solid black;
+    display: flex;
+    margin-left: 3%;
+    margin-top: 5%;
+    padding-right: 2%;
+    width: 40%;
+}
+
+.courseoffer-learing-clock-icons {
+    font-size: 20px;
+
+}
+
+.courseoffer-learning-hourse-time {
+    font-family: "rtl-font-family";
+    font-size: 17px;
+    color: rgb(141, 138, 138);
+    margin-left: 5%;
+}
+
+.courseoffer-date-box {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 35%;
+}
+
+.courseoffer-learning-calender-icon {
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.courseoffer-calender-date {
+    font-family: "rtl-font-family";
+    font-size: 15px;
+    color: rgb(141, 138, 138);
+    margin-left: 5%;
+}
+.courseoffer-learning-free-btn {
+    margin-left: 70%;   
+    margin-top: 3%;
+    padding: 2% 5% 2% 5%;
+    border: none;
+    background: none;
+    background: #162a47;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}

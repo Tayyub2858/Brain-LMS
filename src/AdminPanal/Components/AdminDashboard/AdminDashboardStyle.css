@@ -1,0 +1,231 @@
+.admin-dashboard-container{
+    padding: 2%;
+    background: var(--admindashboard);
+}
+.dash-card{
+    height:30vh;
+    width: 100%;
+    background: var(--gradient);
+    display: flex;
+}
+.card-text{
+    width: 70%;
+}
+.card-title{
+    color: var(--white);
+    padding-left: 5%;
+}
+.react-icons{
+    width: 20%;
+    height: 100px;
+    /* background-color: red; */
+   margin: auto;
+}
+.counter-nbr{
+    font-size:50px;
+    padding-left: 5%;
+    color: var(--white);
+}
+.react-icons-dash{
+    color: white;
+    list-style-type: none;
+    font-size: 60px;
+    margin: 30% 5% 5% 5%;
+}
+/* Add the Css of Recent Notification  */
+.notification-bar{
+    width: 100%;
+    height: 50vh;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+    background:var(--white);
+}
+.notifiction-title{
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--grey);
+}
+.notifiction-box{
+    width: 85%;
+    height: 40vh;
+    margin: auto;
+    padding-left: 5%;
+    overflow-y: scroll;
+}
+.notification-row{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    list-style-type: none;
+    background-color: #f1f0f0;
+}
+.notification-icon{
+    width: 10%;
+    padding: 1% 0% 1% 1%;
+}
+.notification-btn{
+    background: none;
+    padding: 20%;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: #fcd9e2;
+}
+.notification-text{
+    width: 90%;
+    padding: 2% 2% 0% 4%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notification-date-time{
+    width: 20%;
+    padding: 2% 0% 0% 0%;
+    color: #20d389;
+}
+.cross-icons{
+    font-size:large;
+    color: #f14683;
+}
+.notification-time{
+        margin: auto;
+}
+/* add css for show all user   */
+.user-title-bar{
+    width: 100%;
+    height: fit-content;
+}
+.enrollment-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    color: var(--grey);
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.std-table{
+    width: 100%;
+    height: fit-content;
+}
+.std-table-show{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+.std-table-show thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.std-table-show thead th,
+.std-table-show thead td {
+    padding: 10px 8px;
+    text-align: center;
+}
+.std-table-show tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.std-table-show tbody tr:nth-of-type(even) {
+    background-color: #99b4af;
+}
+
+.std-table-show tbody tr:last-of-type {
+    border-bottom: 2px solid #086855;
+}
+/* Table Styling of css  user table*/
+/* Section One*/
+
+.user-list-table{
+    padding: 3%;
+}
+th { 
+        background: #c5c5c5;
+        color: var(--dark);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:medium;
+}
+table {
+        border-collapse: collapse;
+        border: 1px solid #cdcdcd;
+        font: normal 12px arial; 
+        width: 100%;
+        
+}
+th { border: 1px solid #cdcdcd; padding: 3px; padding-top: 1%; padding-bottom: 1%;}
+td { border: 1px solid #cdcdcd; padding: 3px;}
+tbody tr:nth-of-type(even) {
+    background-color: #99b4af;
+}
+
+/* Section two*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+        /* Section three*/
+                table, thead, tbody, th, td, tr { 
+                        display: block; 
+                }
+                /* Section four*/
+                thead tr { 
+                        position: absolute;
+                        top: -9999px;
+                        left: -9999px;
+                }
+                
+                tr { border-bottom: 1px solid #ccc; }
+/* Section five*/
+                td { 
+                     border: none;
+                     border-bottom: 1px solid #eee; 
+                     position: relative;
+                     padding-left: 50%; 
+                }
+                td:before { 
+                        position: absolute;
+                        top: 3px;
+                        left: 6px;
+                        width: 45%; 
+                        padding-right: 10px; 
+                        white-space: nowrap;
+                        font-weight: bold;
+                }
+                /* Section six*/
+
+                td:nth-of-type(1):before { content: "ID"; }
+                td:nth-of-type(2):before { content: "Name"; }
+                td:nth-of-type(3):before { content: "Email"; }
+                td:nth-of-type(4):before { content: "Phone Number"; }
+                td:nth-of-type(5):before { content: "Course 1"; }
+                td:nth-of-type(6):before { content: "Course 2"; }
+                td:nth-of-type(7):before { content: "Course 3"; }
+                td:nth-of-type(8):before { content: "Course 4"; }
+                td:nth-of-type(9):before { content: "Course 5"; }
+                td:nth-of-type(10):before { content: "Course 6"; }
+                td:nth-of-type(11):before { content: "Course 7"; }
+                td:nth-of-type(12):before { content: "Course 8"; }
+                td:nth-of-type(13):before { content: "Course 9"; }
+                td:nth-of-type(14):before { content: "Course 10"; }
+                td:nth-of-type(15):before { content: "Course 11"; }
+                td:nth-of-type(16):before { content: "Course 12"; }
+                td:nth-of-type(17):before { content: "Course 13"; }
+}
+
+/* Section seven*/
+        /* @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px) {
+                body { 
+                        padding: 0; 
+                        margin: 0; 
+                        width: 320px; }
+                } */
+/* Section eight*/
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                body { 
+                        width: 495px; 
+                }
+        }

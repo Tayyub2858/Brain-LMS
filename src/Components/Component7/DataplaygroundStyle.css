@@ -1,0 +1,52 @@
+.dataplayground-container{
+    background-color: whitesmoke;
+    padding: 2% 10% 2% 10%;
+   
+}
+.dataset-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 2%;
+    margin-top: 5%;
+
+ 
+}
+.dataset-img{
+width: 100%;
+}
+.dataset-heading{
+    margin-left: 5%;
+    padding: 1%;
+}
+.dataset-txt{
+    margin-left: 5%;
+    padding: 1%;
+    color: var(--smallText);
+}
+.card-desc{
+    margin-top: 5%;
+    padding: 2%;
+}
+.dataset-card-title{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--smallText);
+}
+.dataset-card-txt{
+    font-size: small;
+    margin-top: 2%;
+}
+.card-tags{
+    background-color: var(--mediumText);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 2%;
+}
+.dataset-download{
+border: none;
+padding: 5% 10% 5% 10%;
+background: var(--gradient);
+border-radius: 10px;
+font-weight: 600;
+cursor: pointer;
+}

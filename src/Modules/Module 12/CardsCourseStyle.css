@@ -1,0 +1,94 @@
+:root {
+    --instructor: linear-gradient(to right, #3598ea 0%, #0bd8fa 100%);
+    --student: linear-gradient(to right, #e757a3 0%, #a028a9 100%);
+    --liveclass: linear-gradient(to right, #0ece86 0%, #04dd3a 100%);
+    --livevideo: linear-gradient(to right, #ff2c56 0%, #ff8e87 100%);
+}
+
+.cardcourse-container {
+    height: fit-content;
+    padding: 2% 0% 7% 5%;
+    text-align: center;
+    margin: auto;
+}
+
+.cardcourse-box {
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 5px #888888;
+    margin-top: 20%;
+    padding-bottom: 5%;
+}
+
+.instructor-img {
+    background: var(--instructor);
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10%;
+}
+
+.student-img {
+    background: var(--student);
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10%;
+}
+
+.liveclass-img {
+    background: var(--liveclass);
+    padding: 3%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10%;
+}
+
+.livevideo-img {
+    background: var(--livevideo);
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10%;
+}
+
+.count-numbers {
+    font-weight: bold;
+    padding: 2% 0% 2% 0%;
+}
+
+.card-heading-title {
+    text-align: center;
+    padding: 2% 0% 5% 0%;
+}
+
+.card-para {
+    text-align: center;
+    font-size: small;
+    color: black;
+}
+.card-para:hover{
+    color: white;
+}
+.cardcourse-box:hover {
+    position: relative;
+    top: -20px;
+    transition: all .5s ease-in-out;
+    background: #162a47;
+    color: white;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    .cardcourse-container{
+        height: fit-content;
+        padding-bottom: 15%;
+    }
+
+    .cardcourse-box {
+      width: fit-content;
+      height: fit-content;
+    }
+}

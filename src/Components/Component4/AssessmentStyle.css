@@ -1,0 +1,10 @@
+.assessment-container{
+    text-align: center;
+}
+.video-container{
+    display: block;
+    margin: auto;
+}
+.video-player{
+    padding: 2%;
+}

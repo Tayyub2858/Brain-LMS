@@ -1,0 +1,43 @@
+
+.career-container{
+    margin-top: 2%;
+    padding: 3% 0% 3% 0%;
+    background: var(--gradient);
+}
+.career-box{
+    width: 80%;
+    background: var(--white);
+    margin: auto;
+    border-radius: 30px;
+}
+.career-text{
+    font-size: large;
+    font-weight: bold;
+    color: var(--endFooter);
+    padding: 7%;
+    text-align: center;
+}
+.caree-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+.career-img-name{
+    text-align: center;
+    font-size: medium;
+    color: var(--dark);
+}
+.career-img-designation{
+    text-align: center;
+    font-size: small;
+    color: var(--smallText);
+}
+@media only screen and (max-device-width: 768px) {
+  .career-container{
+    height: fit-content;
+  }
+    .career-box{
+        height: fit-content;
+    }
+}
