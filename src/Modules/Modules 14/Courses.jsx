@@ -43,8 +43,7 @@ const Courses = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
               >
-
-                <SwiperSlide>
+             <SwiperSlide className='swiperslider-card'>
                   <div className="course-offer-cards">
                     <div className="course-offer-img-box">
                       <button className='Course-offered-btn'>Course</button>
@@ -74,6 +73,7 @@ const Courses = () => {
                     <button className="courseoffer-learning-free-btn">Free</button>
                   </div>
                 </SwiperSlide>
+             
                 <SwiperSlide>
                   <div className="course-offer-cards">
                     <div className="course-offer-img-box">
@@ -194,7 +194,6 @@ const Courses = () => {
                     <button className="courseoffer-learning-free-btn">Free</button>
                   </div>
                 </SwiperSlide>
-
               </Swiper>
             </div>
           </Grid>

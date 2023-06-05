@@ -46,6 +46,10 @@
 .courseoffer-slider-boxes{
     padding-bottom: 5%;
     margin-top: 5%;
+    /* background-color: red; */
+}
+.course-box-data{
+    background-color: aqua;
 }
 .course-offer-cards{
     /* background-color: red; */
@@ -155,4 +159,15 @@
     color: white;
     font-size: medium;
     cursor: pointer;
+}
+
+@media only screen and (max-device-width: 768px){
+   .swiperslider-card{
+    width: 100%;
+   }
+    .course-offer-cards{
+        width: 100%;
+        display:block;
+    }
+   
 }
