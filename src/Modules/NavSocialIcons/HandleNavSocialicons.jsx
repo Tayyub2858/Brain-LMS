@@ -3,28 +3,28 @@
 const HandleNavSocialicons = () => {
 
   const Handlelocation = () => {
-    window.open('https://goo.gl/maps/ZVmd7zboqz4jsAgf7?coh=178573&entry=tt')
+    window.open('')
   }
   const HandleGmail = () => {
-    window.open('https://mail.google.com/mail/u/0/#sent?compose=new')
+    window.open('')
   }
-  const Handlephone = () => { window.open('cell:0418787246');}
+  const Handlephone = () => { window.open('cell:23456789');}
   // open the social media icons with links 
   const HandleWhatsapp = () => {
-    window.open('https://api.whatsapp.com/send/?phone=923032238734&text&type=phone_number&app_absent=0');
+    window.open('');
     // alert('Brain Analytics Conntecting Comming Soon..')
   }
   const HandleFacebook = () => {
-    window.open('https://www.facebook.com/groups/1211645802304086/user/100028465427480');
+    window.open('');
   }
   const HandleLinkedin = () => {
-    window.open('https://www.linkedin.com/company/brainanalytics/')
+    window.open('')
   }
   const HandleInstagram = () => {
-    alert("Brain Analytic on instrgram links comming soon...")
+    alert("")
   }
   const Handletwitter = () => {
-    alert("Brain analytics on twitter links comming soon...")
+    alert("")
   }
   return {
     Handlelocation,

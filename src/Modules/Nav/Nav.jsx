@@ -14,17 +14,17 @@ const Nav = () => {
                 </div>
                 <div className="nav-links">
                     <Link to='/'><span className="nav-btn">Home</span> </Link>   
-                    <Link to='/learn'><span className="nav-btn">Courses</span> </Link>   
-                    <Link to='/corporate-training'><span className="nav-btn"> Services</span> </Link>     
-                    <Link to='/Pricing'><span className="nav-btn">Plans</span> </Link>  
-                    <Link to='/Pricing'><span className="nav-btn">Corperate Traning</span> </Link>  
-                    <Link to='/gallery'><span  className="nav-btn">News & Events</span> </Link>
+                    <Link to='/'><span className="nav-btn">Courses</span> </Link>   
+                    <Link to='/'><span className="nav-btn"> Services</span> </Link>     
+                    <Link to='/'><span className="nav-btn">Plans</span> </Link>  
+                    <Link to='/'><span className="nav-btn">Corperate Traning</span> </Link>  
+                    <Link to='/'><span  className="nav-btn">News & Events</span> </Link>
                     <Link to="/" ><span className='nav-btn'>Resources</span></Link>
-                    <Link to='/gallery'><span  className="nav-btn">Faqs</span> </Link>
+                    <Link to='/'><span  className="nav-btn">Faqs</span> </Link>
                     <Link className='nav-btn' to='/contact'> <span className="nav-btn">Contact</span> </Link> 
                     {/* <Link to='/gallery'><span  className="nav-btn">Gallery</span> </Link> */}
                 {/* <Link className='nav-btn' to='/login'> <span className="nav-btn">LOGIN</span> </Link>  */}
-                <Link  to='/signup'> <button className="signup">Start Learning</button> </Link>  
+                <Link  to='/'> <button className="signup">Start Learning</button> </Link>  
                 </div>
                 
                 <div className="nav-hamburguer-icon" onClick={() => setMenuClosed(!isMenuClosed)}>☰</div>
@@ -35,13 +35,13 @@ const Nav = () => {
                     <div className="overlay-menu-wrapper">
                         <div className="overlay-menu">
                             <Link to='/'><button className="nav-btn-mb">HOME</button></Link>   
-                            <Link to='/learn'><button className="nav-btn-mb">LEARN</button></Link>
-                            <Link to='/corporate-training'><button className="nav-btn-mb">SERVICES</button></Link>
-                            <Link to='/pricing'><button className="nav-btn-mb">PRICING</button></Link>
-                            <Link to='/Testimonials'> <button className="nav-btn-mb">GALLERY</button></Link>
-                            <Link to='/contact'> <button className="nav-btn-mb">CONTACT</button></Link>
-                            <Link to='/Login'><button className="nav-btn-mb">LOGIN</button></Link>
-                            <Link to='/Signup'><button className="signup-mb">SIGN UP</button></Link>
+                            <Link to='/'><button className="nav-btn-mb">LEARN</button></Link>
+                            <Link to='/'><button className="nav-btn-mb">SERVICES</button></Link>
+                            <Link to='/'><button className="nav-btn-mb">PRICING</button></Link>
+                            <Link to='/'> <button className="nav-btn-mb">GALLERY</button></Link>
+                            <Link to='/'> <button className="nav-btn-mb">CONTACT</button></Link>
+                            <Link to='/'><button className="nav-btn-mb">LOGIN</button></Link>
+                            <Link to='/'><button className="signup-mb">SIGN UP</button></Link>
 
                         </div>
                     </div>

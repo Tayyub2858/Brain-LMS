@@ -26,13 +26,13 @@ const NavSocialIcons = () => {
                 <div className="socialicons-text-container">
                     <div className="socialicons-leftside">
                         <p className='icons-div' onClick={HandleGmail}><MdEmail /></p>
-                        <p className='social-email' onClick={HandleGmail}>brainanalytics.pk@gmail.com</p>
+                        <p className='social-email' onClick={HandleGmail}>brain@gmail.com</p>
                         <div style={{ borderLeft: "1px solid ", height: "4vh", marginTop: "10px" }}></div>
                         <p className='icons-call' onClick={Handlephone}><IoCall /></p>
-                        <p className='contact-nbr' onClick={Handlephone}>041-8787246</p>
+                        <p className='contact-nbr' onClick={Handlephone}>123456789</p>
                         <div style={{ borderLeft: "1px solid ", height: "4vh", marginTop: "10px" }}></div>
                         <p className='icons-home' onClick={Handlelocation} ><MdLocationOn /></p>
-                        <p className='address' onClick={Handlelocation}>Khayaban Gardens Faisalabad</p>
+                        <p className='address' onClick={Handlelocation}> Office 18, Lahore</p>
                     </div>
                     <div className="navsocial-links">
                         <button className='navsocial-icons' onClick={HandleWhatsapp}><RiWhatsappFill className='icons-nav'  /></button>

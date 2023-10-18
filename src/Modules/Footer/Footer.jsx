@@ -1,7 +1,7 @@
 import React from 'react'
 import './FooterStyles.css';
 import { Grid } from '@mui/material';
-import Logo from '../../Assets/Front-Page/footerLogo.png';
+// import Logo from '../../Assets/Front-Page/footerLogo.png';
 import { Link } from 'react-router-dom'
 import barcode from '../../Assets/Front-Page/BARCODE.png';
 import fb from '../../Assets/Front-Page/FB.png';
@@ -16,7 +16,7 @@ const Footer = () => {
         <Grid container>
           <Grid item xs={6} sm={6} md={1}>
             <div className="footer-logo-container">
-              <Link to='/'><img src={Logo} alt="Footer Logo" className='footer-logo' /></Link>
+              <Link to='/'><img src="" alt="Footer Logo" className='footer-logo' /></Link>
             </div>
           </Grid>
           <Grid item xs={6} sm={6} md={3}>
@@ -25,8 +25,8 @@ const Footer = () => {
                 HEAD OFFICE
               </h4>
               <p className="footer-txt">
-                Brain Analytics, Office 18, Khayaban Gardens Sargodah Road, Faisalabad
-                <span className="ph-num">phone: 041-8787246</span>
+              Office 18, Lahore
+                <span className="ph-num">phone: 041-1234567</span>
               </p>
             </div>
           </Grid>
@@ -38,7 +38,7 @@ const Footer = () => {
               <p className="footer-link-txt">
                 Courses
               </p>
-              <Link className='footer-link' to='/blog'>
+              <Link className='footer-link' to='/'>
                 <p className="footer-link-txt">
                   Blog
                 </p></Link>
@@ -49,7 +49,7 @@ const Footer = () => {
               <h4 className="footer-heading">
                 RESOURCES
               </h4>
-              <Link className='footer-link' to='/gallery'>
+              <Link className='footer-link' to='/'>
                 <p className="footer-link-txt">
                   Gallery
                 </p></Link>
@@ -66,7 +66,7 @@ const Footer = () => {
               <h4 className="footer-heading">
                 SERVICES
               </h4>
-              <Link className='footer-link' to='/corporate-training'>
+              <Link className='footer-link' to='/'>
                 <p className="footer-link-txt">
                   Corporate Training
                 </p></Link>
@@ -91,9 +91,9 @@ const Footer = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={1}></Grid>
           <Grid item xs={1} sm={1} md={1}>
-            <div className="barcode">
+            {/* <div className="barcode">
               <img src={barcode} alt="barcode" className="barcode-img" />
-            </div>
+            </div> */}
           </Grid>
           <Grid item xs={12} sm={12} md={1}>
             <div className="socialmedia-links">
@@ -109,7 +109,7 @@ const Footer = () => {
         <Grid container>
           <Grid item xs={12} sm={12} md={6}>
             <p className="end-footer-txt">
-              &copy; Brain Analytics, LLC | All Rights Reserved
+              &copy; Brain, LLC | All Rights Reserved
             </p>
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
