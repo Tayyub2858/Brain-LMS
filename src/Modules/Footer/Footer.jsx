@@ -1,9 +1,7 @@
 import React from 'react'
 import './FooterStyles.css';
 import { Grid } from '@mui/material';
-// import Logo from '../../Assets/Front-Page/footerLogo.png';
 import { Link } from 'react-router-dom'
-import barcode from '../../Assets/Front-Page/BARCODE.png';
 import fb from '../../Assets/Front-Page/FB.png';
 import insta from '../../Assets/Front-Page/INSTA.png';
 import li from '../../Assets/Front-Page/LIN.png';
@@ -91,9 +89,6 @@ const Footer = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={1}></Grid>
           <Grid item xs={1} sm={1} md={1}>
-            {/* <div className="barcode">
-              <img src={barcode} alt="barcode" className="barcode-img" />
-            </div> */}
           </Grid>
           <Grid item xs={12} sm={12} md={1}>
             <div className="socialmedia-links">
